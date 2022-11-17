@@ -121,17 +121,8 @@ const autoPlaySlide = () => {
 };
 
 window.onload = () => {
-  setInterval(autoPlaySlide, 1000);
+  setInterval(autoPlaySlide, 3000);
 };
-
-
-
-
-
-
-
-
-
 
 
 
@@ -155,10 +146,28 @@ const toggleMenu = () => {
 
 
 
-
-
-
-
+// owl carousel 
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  responsiveClass:true,
+  responsive:{
+      0:{
+          items:1,
+          nav:true,
+          loop:true
+      },
+      600:{
+          items:3,
+          nav:false
+      },
+      1000:{
+          items:1,
+          nav:true,
+          loop:false
+      }
+  }
+})
 
 
 
