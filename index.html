@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="web.css" />
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap"
+      rel="stylesheet"
+    />
+   
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+
+    <title>Devine 11</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header class="">
+
+
+             <!-- <nav class="w-full h-[50vh] bg-[#1B1D2A] fixed top-0 translate-y-[-100%] left-0 transition-transform"> -->
+    <nav
+    id="menu"
+    class="w-full z-50 bg-[#1B1D2A] fixed top-0 -translate-y-full left-0 transition-transform items-center"
+  >
+    <div class="relative w-full h-full">
+      <div class="flex justify-between items-center py-[16px] px-3">
+        <div class="flex">
+          <img src="images/logo.svg" alt="" />
+          <img src="images/logo2.svg" alt="" class="px-2" />
+        </div>
+        <button onclick="toggleMenu()" class="hamburger text-white">X</button>
+      </div>
+      <ul>
+        <li class="py-3 px-4 text-white font-semibold border border-gray-400">
+          Home
+        </li>
+        <li class="py-3 px-4 text-white font-semibold border border-gray-400">
+          About
+        </li>
+        <li class="py-3 px-4 text-white font-semibold border border-gray-400">
+          FAQ
+        </li>
+        <li class="py-3 px-4 text-white font-semibold border border-gray-400">
+          Legal
+        </li>
+        <li class="py-3 px-4 text-white font-semibold border border-gray-400">
+          Contact
+        </li>
+      </ul>
+    </div>
+  </nav>
+ 
+
+
+      <nav
+        class="flex bg-[#171925] justify-center gap-60 p-3 relative"
+      >
+        <div class="flex pt-2">
+          <img src="images/logo.svg" alt="" />
+          <img src="images/logo2.svg" alt="" class="px-2" />
+        </div>
+        <div class="hidden md:block">
+          <ul class=" md:flex gap-20 pt-4">
+            <li class="nav-item">
+              <a href="#" class="hover:text-[#FD371F]">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="hover:text-[#FD371F]">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="hover:text-[#FD371F]">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="hover:text-[#FD371F]">Legal</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="hover:text-[#FD371F]">Contact</a>
+            </li>
+
+            <li class="nav-item">
+              <button
+                class="bg-gradient-to-b from-[#FD371F] to-[#CD132E] p-2 px-3 rounded-sm"
+              >
+                Get Started
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <button onclick="toggleMenu()" class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </nav>
+    </header>
+
+    <!-- slider section -->
+
+    <section class="main swiper mySwiper">
+      <div class="wrapper swiper-wrapper">
+        <div class="slide swiper-slide">
+          <img src="images/maskgroup.png" alt="" class="image" />
+          <div class="image-data">
+            <h2>
+              All Sports
+              <br />
+              One Fantasy Destination
+            </h2>
+            <p class="text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+
+            <div class="download">
+              <button><img src="images/download.svg" alt="" /></button>
+              <button>
+                <img src="images/download2.svg" alt="" class="mx-2" />
+              </button>
+            </div>
+
+            <img src="images/hand.png" alt="" class="hand" />
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="images/maskgroup.png" alt="" class="image" />
+          <div class="image-data">
+            <h2>
+              All Sports
+              <br />
+              One Fantasy Destination
+            </h2>
+            <p class="text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+            <div class="download">
+              <button><img src="images/download.svg" alt="" /></button>
+              <button>
+                <img src="images/download2.svg" alt="" class="mx-2" />
+              </button>
+            </div>
+
+            <img src="images/hand.png" alt="" class="hand" />
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="images/maskgroup.png" alt="" class="image" />
+          <div class="image-data">
+            <h2>
+              All Sports
+              <br />
+              One Fantasy Destination
+            </h2>
+            <p class="text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+            <div class="download">
+              <button><img src="images/download.svg" alt="" /></button>
+              <button>
+                <img src="images/download2.svg" alt="" class="mx-2" />
+              </button>
+            </div>
+
+            <img src="images/hand.png" alt="" class="hand" />
+          </div>
+        </div>
+
+        <!-- mobile view mockup view 
+      <div class="md:hidden flex justify-center absolute  bottom-0   ">
+        <img src="images/hand.png" alt="" class="" />
+      </div>
+
+        -->
+      </div>
+
+      <div class="swiper-button-next nav-btn"></div>
+      <div class="swiper-button-prev nav-btn"></div>
+      <!-- <div class="swiper-pagination"></div> -->
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="JS/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+    <!-- save money and secure money section  -->
+
+    <div class="bg-[#1a212b] mx-auto hidden md:block">
+      <img
+        width="1200px"
+        src="images/devine111.png"
+        class="m-auto pt-8 pb-16"
+        alt=""
+      />
+    </div>
+
+    <!-- mobile view  save money and secure money section  -->
+    <div class="bg-[#1a212b] md:hidden pb-10">
+      <h1 class="text-white text-3xl font-bold text-center px-3 pt-5">
+        Save money & secure your money
+      </h1>
+      <img
+        src="images/mobile/savemoney.png"
+        alt=""
+        class="mx-auto pb-10 pt-10"
+      />
+    </div>
+
+    <!-- its easy to start playing section -->
+    <section
+      class="bg-gradient-to-b from-[#1A212B] to-[#1A212B] relative mb-11 -mt-6 hidden md:block"
+    >
+      <div class="flex justify-center">
+        <h1
+          class="absolute text-white md:text-4xl md:top-10 top-7 px-5 font-bold text-center text-[30px]"
+        >
+          It's easy to start playing on Devine 11
+        </h1>
+        <p class="hidden md:block absolute text-white top-[100px]">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry'sstandard dummy text ever.
+        </p>
+
+        <p
+          class="md:hidden absolute text-white top-32 px-3 text-[13px] text-center"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry'sstandard dummy text ever.
+        </p>
+      </div>
+      <img
+        src="images/soccer-players-action-professional-stadium (1).png"
+        alt=""
+        class="absolute bottom-0"
+      />
+
+      <div
+        class="hidden md:flex justify-center space-x-40 absolute -bottom-14 mx-48"
+      >
+        <img width="270px" src="images/iPhone.png" alt="" class="   " />
+
+        <img width="270px" src="images/iphone3.png" alt="" class="  " />
+        <img width="270px" src="images/iphone2.png" alt="" class="   " />
+
+      
+
+
+      </div>
+
+      <div class=" absolute  bottom-0  grid-cols-3 grid mx-auto   "> 
+
+        <img width="350px" src="images/mobile/step2.png" alt="">
+        <img width="350px" src="images/mobile/step2.png" alt="">
+        <img width="350px" src="images/mobile/step3.png" alt="">
+      </div>
+
+      <img src="images/playing.png" alt="" class="playingimg" />
+    </section>
+
+    <!-- its easy to start playing section mobile -->
+    <section class="relative md:hidden">
+      <img
+        src="images/mobile/bgmobile.png"
+        alt=""
+        class="bg-gradient-to-b from-[#1A212B] to-[#1A212B] w-full"
+      />
+
+      <div class="main-wrapper">
+        <div class="slider-btns"></div>
+        <div class="slider-wrapper">
+          <div class="dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+          <div class="slides">
+            <img src="images/iPhone.png" alt="nature" />
+          </div>
+          <div class="slides">
+            <img src="images/iphone2.png" alt="nature" />
+          </div>
+          <div class="slides">
+            <img src="images/iphone3.png" alt="nature" />
+          </div>
+        </div>
+      </div>
+
+      <div class="absolute top-8 text-white text-center px-5">
+        <h1 class="text-3xl font-bold">
+          It's easy to start playing on Devine 11
+        </h1>
+        <p class="pt-3">
+          Lorem Ipsum is simply dummy text of the printingand typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text
+          ever.
+        </p>
+      </div>
+    </section>
+
+    <!-- getting started -->
+    <section
+      class="bg-gradient-to-b from-[#1A212B] to-[#1A212B] p-8 text-white -mt-20"
+    >
+      <h1
+        class="md:pt-40 flex justify-center md:text-5xl text-3xl pt-20 font-bold"
+      >
+        Getting Started
+      </h1>
+
+      <p
+        class="md:pt-4 md:text-[18px] flex justify-center text-[12px] pt-2 text-center"
+      >
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever.
+      </p>
+
+      <main class="md:flex justify-center gap-4 pt-10">
+        <div class="bg-[#171925]">
+          <img width="370px" src="images/gs1.png" alt="" />
+
+          <div class="flex">
+            <img src="images/play.svg" alt="" class="p-2" />
+            <p class="px-3 pb-6 pt-3">
+              Lorem Ipsum is simply dummy text of the .
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-[#171925]">
+          <img width="370px" src="images/gs2.png" alt="" />
+
+          <div class="flex">
+            <img src="images/play.svg" alt="" class="p-2" />
+            <p class="px-3 pb-6 pt-3">
+              Lorem Ipsum is simply dummy text of the .
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-[#171925]">
+          <img width="370px" src="images/gs3.png" alt="" />
+
+          <div class="flex">
+            <img src="images/play.svg" alt="" class="p-2" />
+            <p class="px-3 pb-6 pt-3">
+              Lorem Ipsum is simply dummy text of the .
+            </p>
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <!-- It's easy to start playing on Devine 11 2222222 -->
+
+    <section class="hidden md:block relative">
+      <div class="flex justify-center">
+        <img
+          src="images/soccer-players-action-professional-stadium.svg"
+          alt=""
+          class="absolute top-0"
+        />
+        <img
+          src="images/soccer-players-action-professional-stadium (1).png"
+          alt=""
+          class="absolute bottom-0"
+        />
+
+        <h1
+          class="absolute text-white md:text-5xl text-[21px] font-bold top-20 pt-2"
+        >
+          It's easy to start playing on Devine 11
+        </h1>
+        <p class="absolute text-white top-36 pt-3 text-center px-3">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry'sstandard dummy text ever.
+        </p>
+      </div>
+
+      <div
+        class="hidden md:flex justify-center space-x-8 absolute -bottom-0 mx-auto p t-10 w-full"
+      >
+        <img width="230rem" src="images/iPhone.png" alt="" class="   " />
+        <img width="230rem" src="images/iphone3.png" alt="" class="  " />
+        <img width="230rem" src="images/iphone2.png" alt="" class="   " />
+        <img width="230rem" src="images/iphone4.png" alt="" class="   " />
+        <img width="230rem" src="images/iphone5.png" alt="" class="   " />
+      </div>
+
+      <img src="images/5205447 1.png" alt="" class="md:h-full h-[46vh]" />
+    </section>
+
+    <!-- its easy to start playing section mobile  222222-->
+    <section class="relative md:hidden">
+      <img
+        src="images/mobile/bgmobile.png"
+        alt=""
+        class="bg-gradient-to-b from-[#1A212B] to-[#1A212B] w-full"
+      />
+
+      <div class="main-wrapper">
+        <div class="slider-btns"></div>
+        <div class="slider-wrapper">
+          <div class="dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+          <div class="slides">
+            <img src="images/iPhone.png" alt="nature" />
+          </div>
+          <div class="slides">
+            <img src="images/iphone2.png" alt="nature" />
+          </div>
+          <div class="slides">
+            <img src="images/iphone3.png" alt="nature" />
+          </div>
+          <div class="slides">
+            <img src="images/iphone4.png" alt="nature" />
+          </div>
+          <div class="slides">
+            <img src="images/iphone5.png" alt="nature" />
+          </div>
+          <div class="slides">
+            <img src="images/iphone5.png" alt="nature" />
+          </div>
+        </div>
+      </div>
+
+      <div class="absolute top-8 text-white text-center px-5">
+        <h1 class="text-3xl font-bold">
+          It's easy to start playing on Devine 11
+        </h1>
+        <p class="pt-3">
+          Lorem Ipsum is simply dummy text of the printingand typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text
+          ever.
+        </p>
+      </div>
+    </section>
+
+    <!-- what the say section  -->
+    <section class="bg-[#1a212b] pt-10 flex-col"></section>
+
+    <!-- TESTI NOMIAL AND FAQ SECTION  -->
+
+    <section class="pt-24 bg-[#1a212b]">
+      <div class="gtco-testimonials">
+        <h2>What they say</h2>
+        <p class="text-[#52616D] text-center w-6/12 m-auto">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text
+          ever.
+        </p>
+        <div class="owl-carousel owl-carousel1 owl-theme">
+          <div>
+            <div class="card text-center">
+              <img
+                class="card-img-top"
+                src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300"
+                alt=""
+              />
+              <div class="card-body">
+                <h5>
+                  Ronne Galle <br />
+                  <span> Project Manager </span>
+                </h5>
+                <p class="card-text">
+                  “ Nam libero tempore, cum soluta nobis est eligendi optio
+                  cumque nihil impedit quo minus id quod maxime placeat ”
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card text-center">
+              <img
+                class="card-img-top"
+                src="https://images.unsplash.com/photo-1588361035994-295e21daa761?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=301"
+                alt=""
+              />
+              <div class="card-body">
+                <h5>
+                  Missy Limana<br />
+                  <span> Engineer </span>
+                </h5>
+                <p class="card-text">
+                  “ Nam libero tempore, cum soluta nobis est eligendi optio
+                  cumque nihil impedit quo minus id quod maxime placeat ”
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card text-center">
+              <img
+                class="card-img-top"
+                src="https://images.unsplash.com/photo-1575377222312-dd1a63a51638?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=302&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=302"
+                alt=""
+              />
+              <div class="card-body">
+                <h5>
+                  Martha Brown<br />
+                  <span> Project Manager </span>
+                </h5>
+                <p class="card-text">
+                  “ Nam libero tempore, cum soluta nobis est eligendi optio
+                  cumque nihil impedit quo minus id quod maxime placeat ”
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card text-center">
+              <img
+                class="card-img-top"
+                src="https://images.unsplash.com/photo-1549836938-d278c5d46d20?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=303&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=303"
+                alt=""
+              />
+              <div class="card-body">
+                <h5>
+                  Hanna Lisem<br />
+                  <span> Project Manager </span>
+                </h5>
+                <p class="card-text">
+                  “ Nam libero tempore, cum soluta nobis est eligendi optio
+                  cumque nihil impedit quo minus id quod maxime placeat ”
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- iMAGE SECTION -->
+
+      <div class="hidden md:flex justify-center mt-20">
+        <img
+          height=""
+          src="images/Rectangle 39698.svg"
+          alt=""
+          class="relative hidden md:block md:w-[1182px]"
+        />
+        <img
+          width="480px"
+          src="images/world.svg"
+          alt=""
+          class="hidden md:block absolute left-[260px]"
+        />
+        <img
+          width="350px"
+          src="images/iPhone 13 Pro Mockup Right View.png"
+          alt=""
+          class="md:absolute mx-auto md:pt-16 left-72"
+        />
+
+        <div class="md:absolute md:w-4/12 md:mt-28 md:left-2/4 text-white mt-4">
+          <h1
+            class="text-4xl font-extrabold leading-snug text-center md:text-left"
+          >
+            Join millions getting more mindful with Devine 11
+          </h1>
+          <p class="devine pt-3 text-center px-4">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+
+          <div class="mt-6 flex justify-center md:justify-start">
+            <button>
+              <img
+                src="images/download.svg"
+                alt=""
+                class="w-[150px] md:w-[180px]"
+              />
+            </button>
+            <button>
+              <img
+                src="images/download2.svg"
+                alt=""
+                class="md:mx-2 w-[150px] md:w-[180px]"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- iMAGE SECTION mobile section  -->
+
+      <section class="relative md:hidden mt-10 flex justify-center">
+        <div>
+          <img
+            src="images/mobile/Group 1000001926.png"
+            alt=""
+            class="mx-auto"
+          />
+        </div>
+
+        <div class="w-[350px] text-white mt-4 absolute top-1">
+          <h1
+            class="text-3xl px-4 font-extrabold leading-snug text-center md:text-left"
+          >
+            All Sports One Fantasy Destination
+          </h1>
+          <p class="devine pt-3 text-center px-6">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+
+          <div class="mt-6 flex justify-center md:justify-start">
+            <button>
+              <img
+                src="images/download.svg"
+                alt=""
+                class="w-[150px] md:w-[180px]"
+              />
+            </button>
+            <button>
+              <img
+                src="images/download2.svg"
+                alt=""
+                class="md:mx-2 w-[150px] md:w-[180px]"
+              />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      3
+
+      <!-- FAQ SECTION -->
+
+      <div class="container w-10/12">
+        <h2 class="text-white text-4xl font-extrabold flex justify-center pb-4">
+          Divine11 FAQ
+        </h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <button id="accordion-button-1" aria-expanded="false">
+              <span class="accordion-title"
+                >Is the Divine11 App free or paid?</span
+              >
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p class="text-[#52616D]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Elementum sagittis vitae et leo duis ut. Ut tortor pretium
+                viverra suspendisse potenti.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-2" aria-expanded="false">
+              <span class="accordion-title"
+                >Can I download the Dream11 app on both Play Store & App
+                Store?</span
+              >
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p class="text-[#52616D]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Elementum sagittis vitae et leo duis ut. Ut tortor pretium
+                viverra suspendisse potenti.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-3" aria-expanded="false">
+              <span class="accordion-title"
+                >How to register for the contest on the Divine11 App?</span
+              >
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p class="text-[#52616D]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Elementum sagittis vitae et leo duis ut. Ut tortor pretium
+                viverra suspendisse potenti.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-4" aria-expanded="false">
+              <span class="accordion-title"
+                >How to download the divine11 Cricket App?</span
+              >
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p class="text-[#52616D]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Elementum sagittis vitae et leo duis ut. Ut tortor pretium
+                viverra suspendisse potenti.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false">
+              <span class="accordion-title"
+                >Can I open more than one account on divine11?</span
+              >
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p class="text-[#52616D]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Elementum sagittis vitae et leo duis ut. Ut tortor pretium
+                viverra suspendisse potenti.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="flex bg-[#171925] p-5 space-x-6"> 
+      <img src="images/Binance-logo.svg" alt="" />
+      <img src="images/cardano-logo.svg" alt="" />
+      <img src="images/coincheck-logo.svg" alt="" />
+      <img src="images/paradigm-social.svg" alt="" />
+      <img src="images/Vector.svg" alt="" />
+      <img src="images/Vector-1.svg" alt="" />
+    </section> -->
+
+    <!-- footer -->
+
+    <footer class="hidden text-white md:flex">
+      <div class="bg-[#1B1D2B] md:w-5/12 pt-16">
+        <span class="flex justify-self-end mx-20 pb-3">
+          <img src="images/logo.svg" alt="" />
+          <img src="images/logo2.svg" alt="" />
+        </span>
+        <p class="px-20">
+          Lorem Ipsum is simply dummyfdsfds text of printing and typesetting
+          industry. Lorem Ipsum has been the industry Lorem Ipsum is simply
+          dummyfdsfds text of printing and typesetting industry. Lorem Ipsum has
+          been the industry'.
+        </p>
+
+        <div class="flex justify-self-end space-x-10 mx-20 pt-3">
+          <img src="images/Vector-3.svg" alt="" class="icon" />
+          <img src="images/Vector-2.svg" alt="" class="icon" />
+          <img src="images/Vector-1(1).svg" alt="" class="icon" />
+          <img src="images/icon.svg" alt="" class="icon" />
+          <img src="images/youtubee.svg" alt="" class="icon" />
+        </div>
+      </div>
+
+      <div class="bg-[#171925] flex pb-16">
+        <ul class="px-28 pt-10">
+          <li class="text-2xl pb-8">Services</li>
+          <li>About Us</li>
+          <li>Fantasy Points System</li>
+          <li>Contact Us</li>
+          <li>Helpdesk</li>
+        </ul>
+      </div>
+
+      <div class="bg-[#171925]">
+        <ul class="px-32 pt-10">
+          <li class="text-2xl pb-8">Contact Us</li>
+          <li class="">Brooklyn LTD London. SW17 7PQ</li>
+          <li class="p-2">info@divine11.com</li>
+          <li class="p-2">020 575 85412</li>
+
+          <div class="mt-8 flex">
+            <button>
+              <img width="150px" src="images/download.svg" alt="" />
+            </button>
+            <button>
+              <img
+                width="150px"
+                src="images/download2.svg"
+                alt=""
+                class="mx-2"
+              />
+            </button>
+          </div>
+        </ul>
+      </div>
+
+      <div></div>
+    </footer>
+
+    <!-- mobile view footer -->
+
+    <section class="flex-col px-4 md:hidden bg-[#171925]">
+      <div class="bg-[#171925]">
+        <ul class="pt-3 text-white text-left">
+          <li class="text-3xl pb-3 text-left font-bold">Services</li>
+          <li class="">About Us</li>
+          <li class="pt-3">Fantasy Points System</li>
+          <li class="pt-3">Contact Us</li>
+          <li class="pt-3 pb-3">Helpdesk</li>
+        </ul>
+      </div>
+
+      <div class="bg-[#171925]">
+        <ul class="pt-3 text-white">
+          <li class="text-3xl pb-3 text-left font-bold">Contact Us</li>
+          <div class="flex justify-start space-x-2">
+            <img src="images/address.svg" alt="" />
+            <li class="">Brooklyn LTD London.</li>
+          </div>
+
+          <div class="flex justify-start pt-3">
+            <img src="images/email.svg" alt="" />
+            <li class="p-2">info@divine11.com</li>
+          </div>
+
+          <div class="flex justify-start pt-3">
+            <img src="images/phone.svg" alt="" />
+            <li class="p-2">020 575 85412</li>
+          </div>
+        </ul>
+      </div>
+    </section>
+
+    <div
+      class="pt-2 flex space-x-1 justify-center pb-10 bg-[#171925] md:hidden"
+    >
+      <button>
+        <img width="170px" src="images/download.svg" alt="" />
+      </button>
+      <button>
+        <img width="170px" src="images/download2.svg" alt="" class="" />
+      </button>
+    </div>
+
+    <div class="bg-[#1B1D2B] md:hidden pt-3">
+      <span class="flex justify-start pb-3 px-4">
+        <img src="images/logo.svg" alt="" />
+        <img src="images/logo2.svg" alt="" />
+      </span>
+      <p class="px-6 text-white text-left">
+        Lorem Ipsum is simply dummyfdsfds text of printing and typesetting
+        industry. Lorem Ipsum has been the industry Lorem Ipsum is simply
+        dummyfdsfds text of printing and typesetting industry. Lorem Ipsum has
+        been the industry'.
+      </p>
+
+      <div class="flex justify-center space-x-10 pt-4 pb-4">
+        <img src="images/Vector-3.svg" alt="" class="icon" />
+        <img src="images/Vector-2.svg" alt="" class="icon" />
+        <img src="images/Vector-1(1).svg" alt="" class="icon" />
+        <img src="images/icon.svg" alt="" class="icon" />
+        <img src="images/youtubee.svg" alt="" class="icon" />
+      </div>
+    </div>
+
+    <div class="bg-[#1B1D2A] text-white text-[12px] text-center pt-3 pb-3">
+      <p>Privacy Policy | Disclaimer | Terms & Conditions</p>
+      <p class="pt-1">Copyright ©2011-2021 All rights reserved by Divine11</p>
+    </div>
+
+
+
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
