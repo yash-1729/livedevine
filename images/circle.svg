@@ -4,7 +4,7 @@
 <circle cx="33.1288" cy="33.1288" r="31.7857" stroke="white" stroke-width="2.68612"/>
 <defs>
 <linearGradient id="paint0_linear_1811_10669" x1="16.0231" y1="2.892e-06" x2="66.5721" y2="74.7472" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FD371F"/>
+<stop stop-color="#F89E26"/>
 <stop offset="0.391796" stop-color="#CD132E"/>
 <stop offset="0.556626" stop-color="#D93C2E"/>
 <stop offset="1" stop-color="#F9A92D"/>
